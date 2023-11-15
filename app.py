@@ -16,7 +16,7 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 server = app.server
 
-file = (r"C:\Users\marioj\OneDrive - Nature's Sunshine Products\Escritorio\KAM-V2\LIDER - CO_V2.xlsx")
+file = ("LIDER - CO_V2.xlsx")
 
 df = pd.read_excel(file)
 datos = pd.DataFrame(df)
